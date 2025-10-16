@@ -1,6 +1,8 @@
 'use client';
+/* eslint-disable react/no-unescaped-entities */
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from '../../styles/Home.module.css';
 
 export default function Hero() {
@@ -24,7 +26,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className={styles.heroSubtitle}
         >
-          Nigeria's Most Trusted Business Compliance Partner
+          Nigeria&apos;s Most Trusted Business Compliance Partner
         </motion.p>
         
         <motion.p
@@ -47,7 +49,13 @@ export default function Hero() {
             Start Your Business Journey
           </Link>
           <a href="https://wa.me/2341234567890" target="_blank" rel="noopener noreferrer" className={styles.whatsappButton}>
-            <img src="/file.svg" alt="WhatsApp" className={styles.whatsappIcon} />
+            <Image 
+              src="/file.svg" 
+              alt="WhatsApp" 
+              width={24} 
+              height={24} 
+              className={styles.whatsappIcon} 
+            />
             Get Instant Consultation
           </a>
         </motion.div>
@@ -59,15 +67,33 @@ export default function Hero() {
           className={styles.trustIndicators}
         >
           <div className={styles.trustItem}>
-            <img src="/file.svg" alt="Verified" className={styles.trustIcon} />
+            <Image 
+              src="/file.svg" 
+              alt="Verified" 
+              width={20} 
+              height={20} 
+              className={styles.trustIcon} 
+            />
             <span>98% Success Rate</span>
           </div>
           <div className={styles.trustItem}>
-            <img src="/file.svg" alt="Fast" className={styles.trustIcon} />
+            <Image 
+              src="/file.svg" 
+              alt="Fast" 
+              width={20} 
+              height={20} 
+              className={styles.trustIcon} 
+            />
             <span>Fastest Processing</span>
           </div>
           <div className={styles.trustItem}>
-            <img src="/file.svg" alt="Clients" className={styles.trustIcon} />
+            <Image 
+              src="/file.svg" 
+              alt="Clients" 
+              width={20} 
+              height={20} 
+              className={styles.trustIcon} 
+            />
             <span>2,500+ Happy Clients</span>
           </div>
         </motion.div>

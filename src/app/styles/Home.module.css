@@ -520,58 +520,6 @@
   line-height: 1.6;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .heroTitle {
-    font-size: 2.5rem;
-  }
-  
-  .heroText {
-    font-size: 1.125rem;
-  }
-  
-  .heroButtons {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .aboutContent {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-  
-  .contactGrid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-  
-  .statsGrid {
-    grid-template-columns: 1fr;
-  }
-  
-  .serviceGrid {
-    grid-template-columns: 1fr;
-  }
-  
-  .testimonialGrid {
-    grid-template-columns: 1fr;
-  }
-  
-  .trustIndicators {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  
-  .sectionTitle {
-    font-size: 2rem;
-  }
-  
-  .sectionSubtitle {
-    font-size: 1.125rem;
-  }
-}
-
 /* Additional Contact Section Styles */
 .successMessage {
   background: #10b981;
@@ -694,8 +642,119 @@
   line-height: 1.6;
 }
 
-/* Responsive adjustments for new elements */
+/* Enhanced Responsive Design */
+@media (max-width: 1200px) {
+  .heroTitle {
+    font-size: 3rem;
+  }
+  
+  .sectionContainer {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .heroTitle {
+    font-size: 2.75rem;
+  }
+  
+  .aboutContent {
+    gap: 3rem;
+  }
+  
+  .contactGrid {
+    gap: 3rem;
+  }
+  
+  .serviceGrid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
+  .hero {
+    margin-top: 60px;
+    min-height: 80vh;
+  }
+  
+  .heroTitle {
+    font-size: 2.25rem;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.25rem;
+  }
+  
+  .heroText {
+    font-size: 1.125rem;
+  }
+  
+  .heroButtons {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .about {
+    padding: 4rem 0;
+  }
+  
+  .aboutContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .services {
+    padding: 4rem 0;
+  }
+  
+  .testimonials {
+    padding: 4rem 0;
+  }
+  
+  .contact {
+    padding: 4rem 0;
+  }
+  
+  .contactGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .contactForm {
+    padding: 2rem;
+  }
+  
+  .statsGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .serviceGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .testimonialGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .trustIndicators {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .sectionSubtitle {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+  }
+  
   .formTitle {
     font-size: 1.25rem;
   }
@@ -708,5 +767,136 @@
   .successContent {
     flex-direction: column;
     gap: 0.25rem;
+  }
+  
+  .officeItem {
+    padding: 1.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.125rem;
+  }
+  
+  .heroText {
+    font-size: 1rem;
+  }
+  
+  .ctaButton,
+  .whatsappButton {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+  
+  .contactForm {
+    padding: 1.5rem;
+  }
+  
+  .input, .textarea {
+    padding: 0.875rem 1rem;
+  }
+  
+  .submitButton {
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .serviceCard {
+    padding: 2rem 1.5rem;
+  }
+  
+  .testimonialCard {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    min-height: 70vh;
+    margin-top: 60px;
+  }
+  
+  .heroContent {
+    padding: 1rem;
+  }
+  
+  .heroTitle {
+    font-size: 1.75rem;
+  }
+  
+  .sectionContainer {
+    padding: 0 0.75rem;
+  }
+  
+  .contactForm {
+    padding: 1.25rem;
+  }
+  
+  .serviceCard {
+    padding: 1.5rem 1.25rem;
+  }
+  
+  .serviceTitle {
+    font-size: 1.25rem;
+  }
+  
+  .testimonialCard {
+    padding: 1.5rem;
+  }
+  
+  .officeItem {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+  
+  .officeIcon {
+    margin-top: 0;
+  }
+  
+  .badges {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .badge {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 360px) {
+  .heroTitle {
+    font-size: 1.5rem;
+  }
+  
+  .heroSubtitle {
+    font-size: 1rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+  
+  .contactForm {
+    padding: 1rem;
+  }
+  
+  .input, .textarea {
+    padding: 0.75rem 0.875rem;
+    font-size: 0.9rem;
+  }
+  
+  .contactMethod {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
   }
 }

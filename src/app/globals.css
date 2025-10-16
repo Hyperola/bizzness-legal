@@ -34,3 +34,28 @@ a {
   margin: 0 auto;
   padding: 0 16px;
 }
+
+/* Add this to your global.css file instead */
+
+/* Prevent horizontal scrolling and ensure proper viewport */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure content doesn't get hidden behind navbar */
+main {
+  margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-top: 60px;
+  }
+}

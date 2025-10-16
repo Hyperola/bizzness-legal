@@ -13,7 +13,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className={styles.heroTitle}
         >
-          Your Business Compliance
+          Business Compliance 
           <br />
           <span style={{color: '#FBBF24'}}>Done Right</span>
         </motion.h1>
@@ -24,7 +24,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className={styles.heroSubtitle}
         >
-          Nigerias Most Trusted Business Compliance Partner
+          Nigeria's Most Trusted Business Compliance Partner
         </motion.p>
         
         <motion.p
@@ -47,7 +47,7 @@ export default function Hero() {
             Start Your Business Journey
           </Link>
           <a href="https://wa.me/2341234567890" target="_blank" rel="noopener noreferrer" className={styles.whatsappButton}>
-            <img src="/whatsapp-icon.svg" alt="WhatsApp" className={styles.whatsappIcon} />
+            <img src="/file.svg" alt="WhatsApp" className={styles.whatsappIcon} />
             Get Instant Consultation
           </a>
         </motion.div>
@@ -59,15 +59,15 @@ export default function Hero() {
           className={styles.trustIndicators}
         >
           <div className={styles.trustItem}>
-            <img src="/shield-check.svg" alt="Verified" className={styles.trustIcon} />
+            <img src="/file.svg" alt="Verified" className={styles.trustIcon} />
             <span>98% Success Rate</span>
           </div>
           <div className={styles.trustItem}>
-            <img src="/clock.svg" alt="Fast" className={styles.trustIcon} />
+            <img src="/file.svg" alt="Fast" className={styles.trustIcon} />
             <span>Fastest Processing</span>
           </div>
           <div className={styles.trustItem}>
-            <img src="/users.svg" alt="Clients" className={styles.trustIcon} />
+            <img src="/file.svg" alt="Clients" className={styles.trustIcon} />
             <span>2,500+ Happy Clients</span>
           </div>
         </motion.div>

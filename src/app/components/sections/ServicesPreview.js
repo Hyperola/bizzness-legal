@@ -8,25 +8,25 @@ export default function ServicesPreview() {
     { 
       title: 'CAC Business Registration', 
       blurb: 'Fast-track your company registration with CAC. Get your business certified and ready to operate in record time with our expert guidance.', 
-      icon: '/building.svg',
+      icon: '/images/building.svg',
       features: ['24-48h Processing', 'Name Reservation', 'BN & Incorporation']
     },
     { 
       title: 'NAFDAC Product Registration', 
       blurb: 'Navigate NAFDAC compliance seamlessly. We handle everything from product listing to full certification for your goods.', 
-      icon: '/certificate.svg',
+      icon: '/images/certificate.svg',
       features: ['Product Listing', 'Full Certification', 'Renewal Services']
     },
     { 
       title: 'Trademark Protection', 
       blurb: 'Secure your brand identity nationwide. Protect your intellectual property with comprehensive trademark registration services.', 
-      icon: '/trademark.svg',
+      icon: '/images/trademark.svg',
       features: ['Brand Search', 'Application Filing', 'Monitoring']
     },
     { 
       title: 'EFCC & Regulatory Compliance', 
       blurb: 'Stay compliant with all regulatory bodies. We ensure your business meets all legal requirements for smooth operations.', 
-      icon: '/shield.svg',
+      icon: '/images/shield.svg',
       features: ['Compliance Audit', 'Documentation', 'Ongoing Support']
     },
   ];

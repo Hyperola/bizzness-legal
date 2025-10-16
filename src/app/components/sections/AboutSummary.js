@@ -30,7 +30,7 @@ export default function AboutSummary() {
             transition={{ duration: 0.8 }}
             className={styles.aboutImage}
           >
-            <img src="/images/about-team.jpg" alt="Bizzness Legal Team" />
+            <img src="/images/aboutteam.jpg" alt="Bizzness Legal Team" />
           </motion.div>
           
           <motion.div
@@ -77,11 +77,11 @@ export default function AboutSummary() {
           className={styles.trustBadges}
         >
           <span className={styles.badge}>
-            <img src="/shield-check.svg" alt="Verified" className={styles.badgeIcon} />
+            <img src="/images/shield-check.svg" alt="Verified" className={styles.badgeIcon} />
             Accredited CAC Partner
           </span>
           <span className={styles.badge}>
-            <img src="/award.svg" alt="Award" className={styles.badgeIcon} />
+            <img src="/images/award.svg" alt="Award" className={styles.badgeIcon} />
             NAFDAC Certified Agents
           </span>
           <span className={styles.badge}>
@@ -89,7 +89,7 @@ export default function AboutSummary() {
             International Presence
           </span>
           <span className={styles.badge}>
-            <img src="/clock.svg" alt="Fast" className={styles.badgeIcon} />
+            <img src="/images/clock.svg" alt="Fast" className={styles.badgeIcon} />
             Fastest Processing
           </span>
         </motion.div>

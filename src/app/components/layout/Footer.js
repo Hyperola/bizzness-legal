@@ -40,12 +40,12 @@ export default function Footer() {
     },
     { 
       href: 'https://facebook.com/bizznesslegal', 
-      icon: '/facebook-icon.svg', 
+      icon: '/images/facebook-icon.svg', 
       label: 'Facebook' 
     },
     { 
       href: 'https://instagram.com/bizznesslegal', 
-      icon: '/instagram-icon.svg', 
+      icon: '/images/instagram-icon.svg', 
       label: 'Instagram' 
     },
   ];
@@ -57,7 +57,7 @@ export default function Footer() {
           <div className={styles.footerContent}>
             {/* Brand Section */}
             <div className={styles.footerBrand}>
-              <img src="/images/logo-white.png" alt="Bizzness Legal" className={styles.footerLogo} />
+              <img src="/images/bizz.jpg" alt="Bizzness Legal" className={styles.footerLogo} />
               <p className={styles.footerDescription}>
                 Nigerias premier business compliance partner, helping entrepreneurs launch and scale 
                 their businesses with seamless regulatory compliance and legal protection.
@@ -157,7 +157,7 @@ export default function Footer() {
         className={styles.whatsappButton}
         aria-label="Chat with us on WhatsApp"
       >
-        <img src="/whatsapp-icon.svg" alt="WhatsApp" className={styles.whatsappIcon} />
+        <img src="/images/whatsapp-icon.svg" alt="WhatsApp" className={styles.whatsappIcon} />
       </a>
     </>
   );

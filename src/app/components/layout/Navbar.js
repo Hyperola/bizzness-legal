@@ -44,7 +44,7 @@ export default function Navbar() {
       >
         <div className={styles.navContainer}>
           <Link href="/" className={styles.logo} onClick={closeMenu}>
-            <img src="/images/logo.png" alt="Bizzness Legal" className={styles.logoImage} />
+            <img src="/images/bizz.jpg" alt="Bizzness Legal" className={styles.logoImage} />
             <span className={styles.logoText}>Bizzness Legal</span>
           </Link>
 
